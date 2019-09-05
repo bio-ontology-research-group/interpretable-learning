@@ -1,0 +1,29 @@
+// Predicate definitions
+Reaction(protein,protein)
+Interacts(protein,protein)
+Activation(protein,protein)
+Ptmod(protein,protein)
+Expression(protein,protein)
+Catalysis(protein,protein)
+Inhibition(protein,protein)
+Binding(protein,protein)
+
+// Clauses
+-0.951904761905 !Inhibition(x,y) v !Activation(x,y)
+
+-0.663333333333 !Expression(x,y) v Interacts(x,y)
+
+-0.996070038911 !Activation(x,y) v Interacts(x,y)
+
+-0.994766839378 !Ptmod(x,y) v Interacts(x,y)
+
+-0.969393939394 !Reaction(x,y) v Interacts(x,y)
+
+0 Inhibition(protein,protein)
+
+-0.988651685393 !Catalysis(x,y) v Interacts(x,y)
+
+-0.971142857143 !Inhibition(x,y) v Interacts(x,y)
+
+-0.999875936617 !Binding(x,y) v Interacts(x,y)
+
