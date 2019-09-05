@@ -1,0 +1,4 @@
+[6:25 5/9/2019]/home/nuria/Workspace/borg/bh19/interpretable-learning/tilde/ecml06/mutab0/results
+fold: 0 app: muta-d lh: 0 exlh: 0 mc: 2 phb: 0
+[6:36 5/9/2019]/home/nuria/Workspace/borg/bh19/interpretable-learning/tilde/ecml06/yeast-test/results
+fold: 0 app: yeast lh: 0 exlh: 0 mc: 5 phb: 0
