@@ -1,0 +1,6 @@
+interacts(X,Y) :- activation(X,Y).
+interacts(X,Y) :- binding(X,Y).
+interacts(X,Y) :- reaction(X,Y).
+interacts(X,Y) :- inhibition(X,Y).
+interacts(X,Y) :- ptmod(X,Y).
+:- activation(X,Y), inhibition(X,Y).
