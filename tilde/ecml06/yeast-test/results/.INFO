@@ -1,0 +1,7 @@
+folds: 0-9
+test-prefix: ../foil/folds/test
+concat: concat.pl
+prolog: metabolism
+foil: yeast
+key: gene
+mincases: 5
